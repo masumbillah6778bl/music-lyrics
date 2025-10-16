@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Music Player With Lyrics</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="stylesheet" href="css/music-lyrics-in-blogger.css" />
+  </head>
+
+  <body>
+    <div class="content-box">
+      <div id="overlay"></div>
+      
+      <div class="content">
+        <div class="lyrics"></div>
+      </div>
+      
+      <div class="player">
+        <div class="left"> <img src="https://masumbillah6778bd.github.io/images/zubin-garg.jpg" alt="img"> </div>
+        <div class="right">
+          <div class="top">
+            <p class="songs">
+              আমার দিনগুলো সব যায় হারিয়ে আঁধারে
+              <br /> হাবিব ওয়াহিদ
+            </p>
+            
+            <div class="bottom">
+              <video controls loop controlslist="nodownload" controls="" _autoplay="" name="media" oncontextmenu="return false;">
+                <source src="/music/amar-din-gulo-sob-jai-hariye.mp3" type="audio/mpeg" />
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="module" src="js/amar-din-gulo-sob-jai-hariye.js"></script>
+  </body>
+</html>
